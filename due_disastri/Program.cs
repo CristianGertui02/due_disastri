@@ -17,6 +17,7 @@ namespace due_disastri
             errore = Convert.ToDouble (Console.ReadLine()); //inserisco l'errore
             calcolo_errore = errore * 100 * 60 * 60 * 10; //calcolo l'errore
             Console.WriteLine($"l'errore di calcolo è di {calcolo_errore} secondi"); //riporto il margine di errore creato
+
             Console.ReadLine();
 
 
